@@ -31,7 +31,7 @@ const showTimer = date => {
 
   if (duration) {
     timeFull.innerHTML = `
-              Do kajaczków🛶 pozostało: <br>
+              Do kajaczków 🛶 pozostało: <br>
               <b>${timeDiff.days} dni
               ${timeDiff.hours} godzin
               ${timeDiff.minutes} minut i
@@ -40,7 +40,7 @@ const showTimer = date => {
 
     setTimeout(() => showTimer(date), 1000);
   } else {
-    timeFull.innerHTML = `Kajaczki🛶 się odbyły/odbywają🎉`;
+    timeFull.innerHTML = `Kajaczki 🛶 się odbyły/odbywają🎉`;
     answer.innerHTML = `TAK`;
   }
 };
